@@ -1,0 +1,175 @@
+console.clear();
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const names = ["Cristian", "Ed", "Michelle", "Rabbie", "Catherine"];
+
+// /// transform
+
+
+// function map(array, cb) {
+//   const newData = [];
+  
+//   for (let i =0 ; i < array.length; i++) {
+//     newData.push(cb(array[i]))
+//   } 
+//   return newData
+// };
+
+// const newNumbers = map(numbers, function(number){
+//   return number * 2 ;
+// })
+
+
+// const numbers = [1,2,3,4,5,6,7,8];
+// const names = ['john smith', 'james bond', 'lara croft', 'tony stark', 'peter parker'];
+// const middleIndex = names[Math.floor(names.length / 2)];
+
+// console.log(middleIndex);
+// const z = names[0][0].toUpperCase();
+// console.log(z);
+
+
+// const string = "john smith";
+// // const first = string[0].toUpperCase();
+// const stringArray =  string.split(" ");
+// const firstLetter = stringArray[0][0].toUpperCase();
+// const noFirstLetter = stringArray[0].split("").slice(1).join("")
+//  // console.log(stringArray[0]);
+// // console.log(stringArray[0][0]);
+
+// // const firstLetter = stringArray[0][0].toUpperCase();
+// // const noFirstLetter = stringArray[0].join("").splice(1);
+// // console.log(noFirstLetter)
+
+// // const stuff = []
+
+// // stringArray.forEach(function(string) {
+  
+// //   const firstLetter = string[0].toUpperCase();
+  
+  
+// // })
+
+
+// //  console.log(stuff)
+
+//  let entireName = ''
+// function completeName(fullName) {
+  
+//   fullName.forEach(function(name) {
+    
+//     const firstLetter = name.split("")[0].toUpperCase();
+//     const noFirstLetter = name.split("").slice(1).join("");
+//     const wholeName = firstLetter + noFirstLetter ;
+//     // console.log(wholeName);
+//     entireName += wholeName + ','
+      
+    
+
+    
+    
+    
+    
+//   })
+  
+//   return entireName.split(",").join(" ")
+  
+  
+  
+  
+  
+// }
+
+// const stuff = completeName("john smith stevenson".split(" "));
+
+// console.log(stuff)
+
+
+
+
+
+
+
+// const newNames = names.map(function(name){
+  
+//   const splitName = name.split(" ")
+//   const newSplit = splitName.map(function(name) {
+    
+//     const firstLetter = name[0].toUpperCase();
+//     // console.log(firstLetter);
+//     const noFirstLetter = name.split("").slice(1).join("");
+//     // console.log(noFirstLetter)
+//     const wholeName = firstLetter + noFirstLetter;
+//     return wholeName;
+//   })  
+  
+//   return newSplit.join("");
+  
+  
+  
+// })
+
+// console.log(newNames);
+
+
+
+// const stringNameLength = names.map(function(name) {
+//   const obj = {name: name , length: name.length}
+//   const newObj = {...obj}
+//   return obj;
+
+// //   const obj = {};
+// //   obj.name = name;
+// //   obj.length = name.length
+// //   return obj;
+  
+  
+  
+// })
+
+// const keys = {};
+// keys.length1 = stringNameLength[0];
+// keys.length2 = stringNameLength[1];
+// keys.length3 = stringNameLength[2];
+// keys.length4 = stringNameLength[3];
+// keys.length5 = stringNameLength[4];
+// console.log(keys);
+
+// console.log(stringNameLength)
+
+
+const names = ['john smith', 'james bond', 'lara croft', 'tony stark', 'peter parker'];
+
+
+// const namesToObjectAndLetters = names.map(function(name) {
+//   const obj  = {value: name, letters : name.split("") }
+  
+//   return obj;
+// });
+
+// console.log(namesToObjectAndLetters);
+
+
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+
+
+// const squareNumbers = numbers.map(function(number) {
+  
+//   return number * number;
+  
+  
+  
+// })
+
+// console.log(squareNumbers);
+
+
+
+const doubleEvens = numbers.map(function(number){
+  return number *2
+});
+
+console.log(doubleEvens)
+
